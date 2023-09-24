@@ -33,4 +33,11 @@ Best Practice:
 
 A combination of both approaches is often used, where containers and main layout elements use percentage widths for flexibility, while specific components or elements that need precise sizing use fixed widths. This hybrid approach provides the best of both worlds, allowing for responsiveness and precision where needed.
 
+# Em vs Rem
+Em always looks on parent element (compounding effect)
+REm always looks on root element 
+But in the context of margin and padding em focuses on the font size of that element But it doesn't work for Rem as it is consistent
+
+
+
 

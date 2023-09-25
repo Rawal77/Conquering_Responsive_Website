@@ -17,6 +17,7 @@ Copy code
 
 Fixed Width:
 Elements will have consistent dimensions regardless of the parent container's size.
+
 Example:
 
 css
@@ -37,6 +38,9 @@ A combination of both approaches is often used, where containers and main layout
 Em always looks on parent element (compounding effect)
 REm always looks on root element 
 But in the context of margin and padding em focuses on the font size of that element But it doesn't work for Rem as it is consistent
+
+# Using max-width
+using max-width ensures that content doesnot go away from one screen to all the way over the other.
 
 
 

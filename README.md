@@ -42,6 +42,8 @@ But in the context of margin and padding em focuses on the font size of that ele
 # Using max-width
 using max-width ensures that content doesnot go away from one screen to all the way over the other.
 
+# Using CSS units
+Viewport width and height are fantastic units for setting on your viewport basis. Just make sure that you test things on your smaller devices too. As sometimes content may get overflown.
 
 
 

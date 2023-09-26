@@ -45,5 +45,8 @@ using max-width ensures that content doesnot go away from one screen to all the 
 # Using CSS units
 Viewport width and height are fantastic units for setting on your viewport basis. Just make sure that you test things on your smaller devices too. As sometimes content may get overflown.
 
+# Flexbox
+Flexbox is a powerful CSS layout technique for creating responsive designs. It allows for fluid layouts by distributing and aligning elements within a container. With its intuitive properties, like flex-direction and justify-content, it simplifies creating layouts that adapt to various screen sizes. Flexbox enables easy rearrangement of items, optimal space utilization, and simplifies the creation of responsive web designs.
+
 
 

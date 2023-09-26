@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Try to resize window */
+        .container{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            padding: 0.5em;
+            margin: 25vh auto 0;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .item{
+            background-color: antiquewhite;
+            margin: .25em;
+        }
+        .one{
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: 50px;
+        }
+        .two{
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: 50px;
+        }
+        .three{
+            flex-grow: 1;
+            flex-shrink: 3;
+            flex-basis: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one">Flex item one</div>
+        <div class="item two">Flex item two</div>
+        <div class="item three">Flex item three</div>
+    </div>
+</body>
+</html>

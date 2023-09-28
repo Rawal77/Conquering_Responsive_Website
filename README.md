@@ -48,5 +48,7 @@ Viewport width and height are fantastic units for setting on your viewport basis
 # Flexbox
 Flexbox is a powerful CSS layout technique for creating responsive designs. It allows for fluid layouts by distributing and aligning elements within a container. With its intuitive properties, like flex-direction and justify-content, it simplifies creating layouts that adapt to various screen sizes. Flexbox enables easy rearrangement of items, optimal space utilization, and simplifies the creation of responsive web designs.
 
+# Media Query
+Media queries in CSS are essential for responsive layouts, enabling styles to adapt based on the device's characteristics, like screen width, height, or orientation. They allow developers to apply specific styles for different devices, optimizing the layout for various screen sizes and resolutions. This ensures a seamless user experience by tailoring the design to the specific device, improving readability and usability.
 
 

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root{
+    --font-family-1 : 'Oswald', sans-serif;
+    --font-family-2 : 'Montserrat', sans-serif;
+    --background-color-1 : #2E323F;
+    --background-color-2 : #3B4050;
+    --color-1 : #6F737F;
+    --color-2 : #fff;
+    ---color-3 : #A59678;
+}
+
+body{
+    font-family: var(--font-family-2);
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h1,h2,h3{
+    font-family: var(--font-family-1);
+}
+
+li{
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: var(--color-2);
+    margin: 0 0 0.5em;
+    display: inline-block;   
+}
+
+.logo{
+    text-shadow: 2px 2px 2px #6F737F;
+    margin-bottom: 0.7em;
+}
+
+.navbar{
+    background-color: var(--background-color-1);
+    color: var(--color-2);
+    text-align: center;
+    padding: 1.2em 1.7em;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    background-color: var(---color-3);
+    padding: 0.5em 1.1em;
+    border-radius: 1.5em;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+.nav__list{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 25px;
+   align-items: center;
+   font-size: 1.4rem;
+}
+
+
+.firstcontent{
+    background-color: var(--background-color-2);
+    color: white;
+    padding: 5em 1.7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstcontent h1, .firstcontent-text{
+    flex: 0 0 45%;
+}
+
+
+.firstcontent h1{
+    font-size: 2.7rem;
+    line-height: 1.2;
+}
+
+.firstcontent .firstcontent-text{
+    align-self: flex-end;
+}
+
+.firstcontent-text p{
+    margin-bottom: 0.7em;
+}
+
+.breaked{
+    color: var(---color-3);
+}
+
+.secondcontent{
+    background-color: rgba(211,211,211,0.5);
+    padding: 2.5em 1.7em;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: space-between;
+}
+.secondcontent h3, .secondcontent p{
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.secondcontent h3{
+    text-transform: capitalize;
+    color: var(---color-3);
+}
+ 
+.secondcontent-one,.secondcontent-two,.secondcontent-three{
+    flex: 0 0 25%;
+}
+
+img{
+    max-width: 100%;
+    margin: 1.2em 0; 
+}
+
+.thirdcontent{
+    display: flex;
+    padding: 2.5em 1.7em;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.thirdcontent-one,.thirdcontent-two{
+    flex: 0 0 45%;
+}
+
+.thirdcontent-one h2,.thirdcontent-two h2,.thirdcontent-three h2{
+    margin: 0 0 0.5em 0;
+}
+
+.thirdcontent-one h2{
+    margin-bottom: 1.1em;
+}
+
+.thirdcontent-two-one, .thirdcontent-two-two, .thirdcontent-two-three{
+    background-color: var(--background-color-2);
+    color: white;
+    padding: 1.2em;
+    text-align: center;
+    margin: 0.2em 0;    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.7em;
+    gap: 1em;
+}
+
+footer{
+    background-color: var(--background-color-2);
+    color: var(--color-2);
+    padding: 2.5em 0;
+    font-size: 1.2rem;
+}
+
+footer h2{
+    text-align: center;
+    margin: 0.5em;
+}
+
+.footer-content-one{
+    flex: 0 0 30%;
+    font-size: 1rem;
+}
+
+.footer-content-two,.footer-content-three,.footer-content-four{
+    flex: 0 0 21%;
+    font-size: 1rem;
+}
+
+.footer-content h4{
+    margin-bottom: 1.1em;
+}
+
+.footer-content li{
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 1000px){
+    .thirdcontent{
+        display: block;
+    }
+    .thirdcontent-two{
+        margin: 0.8em 0;
+    }
+    /* 
+    
+    
+     */
+}
+
+@media  screen and (max-width:900px) {
+    .secondcontent{
+        display: block;
+    }
+    .secondcontent > div{
+        padding: 0.5em 0;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .navbar{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .nav__list{
+        display: block;
+    }
+    .firstcontent{
+        display: block;
+    }
+    .footer-content{
+        display: block;
+    }
+    .footer-content > div{
+        padding: 0.9em 0;
+    }
+}
